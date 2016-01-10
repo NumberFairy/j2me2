@@ -25,7 +25,6 @@
 <meta http-equiv="description" content="This is my page">
 </head>
 <body>
-		<p>hello,github</p>	
-	</div>
+	<p>hello,github</p>	
 </body>
 </html>
