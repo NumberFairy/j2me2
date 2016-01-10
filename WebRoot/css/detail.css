@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	background-color: #E2E2E2;
+}
+
+hr {
+	color: #E2E2E2;
+}
+
+.top {
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+}
+
+.top_form {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	//
+}
+
+#search {
+	margin-top: 10px;
+	height: 30px;
+	width: 500px;
+	margin-left: 100px;
+	border-radius: 10px 10px;
+}
+
+.form_btn {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	border-radius: 10px 10px;
+}
+
+.allcontent {
+	width: 70%;
+	margin: 0 auto;
+	margin: 20px auto;
+}
+
+.content_right {
+	width: 25%;
+	float: right;
+	height: auto;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px;
+}
+
+#ul1 {
+	margin-top: 10px;
+	font-family: 'consolas', 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+	font-size: 14px;
+	margin-left: 10px;
+	letter-spacing: 2px;
+}
+
+#ul2 {
+	margin-top: 10px;
+	font-size: 12px;
+	margin-left: 15px;
+	letter-spacing: 1.5px;
+	line-height: 15px;
+}
+
+.li1 {
+	margin-top: 15px;
+}
+
+.content_left {
+	width: 70%;
+	float: left;
+	border-radius: 5px 5px;
+	background-color: #FFFFFF;
+}
+
+.owner_content {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.topic {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.topic span {
+	font-family: "Œ¢»Ì—≈∫⁄", "ÀŒÃÂ", "¡• È";
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.text {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.comment {
+	margin-top: 40px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.add {
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "ÀŒÃÂ", "Œ¢»Ì—≈∫⁄";
+	font-size: 14px;
+}
+
+.reply {
+	width: 95%;
+	margin: 10px auto;
+}
+
+.reply textarea {
+	width: 100%;
+	border-radius: 5px 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.comment input {
+	width: 50px;
+	height: 20px;
+	margin-left: 30px;
+	margin-top: 5px;
+	border-radius: 2px 2px;
+	margin-bottom: 10px;
+}
+
+#cancel {
+	font-size: 14px;
+}
+
+#cancel a:LINK {
+	text-decoration: none;
+}
+
+#cancel a:HOVER {
+	color: blue;
+	text-shadow: maroon;
+}
+
+.existReply {
+	margin-top: 40px;
+	width: 100%;
+	border-radius: 5px 5px;
+}
+
+.totaltop {
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+.totaltop span {
+	color: #999999;
+}
+
+.showreply table {
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 3px;
+}

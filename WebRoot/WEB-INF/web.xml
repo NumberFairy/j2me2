@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckcodeServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.servlet.CheckcodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckSendMessageServelt</servlet-name>
+    <servlet-class>zzia.cheng.cai.sendMessageServlet.CheckSendMessageServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMessageServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.sendMessageServlet.GetMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReplyServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.replyServlet.ReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveMessage</servlet-name>
+    <servlet-class>zzia.cheng.cai.saveOwerMessageServlet.SaveMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <servlet-class>zzia.cheng.cai.saveOwerMessageServlet.UploadImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePwd</servlet-name>
+    <servlet-class>zzia.cheng.cai.saveOwerMessageServlet.UpdatePwd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckcodeServlet</servlet-name>
+    <url-pattern>/checkcode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckSendMessageServelt</servlet-name>
+    <url-pattern>/checksendmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMessageServlet</servlet-name>
+    <url-pattern>/getmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyServlet</servlet-name>
+    <url-pattern>/reply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveMessage</servlet-name>
+    <url-pattern>/saveMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <url-pattern>/uploadImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePwd</servlet-name>
+    <url-pattern>/updatePwd</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

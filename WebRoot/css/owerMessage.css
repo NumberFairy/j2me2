@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #E2E2E2;
+}
+
+.content {
+	width: 70%;
+	height: 1000px;
+	margin: 20px auto;
+	margin: 20px auto;
+}
+
+.left {
+	width: 60%;
+	border-radius: 10px 10px;
+	float: left;
+}
+
+.leftContent {
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px;
+	float: left;
+}
+
+.edit {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.top {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.top a:LINK {
+	color: #695c5c;
+	text-decoration: none;
+}
+
+.cont1 table {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.td1 {
+	width: 150px;
+	text-align: right;
+}
+
+.td2 {
+	width: 300px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.td2 input {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px 5px;
+	text-align: 20px;
+	padding-left: 10px;
+}
+
+.uploadPic {
+	float: left;
+	margin-top: 20px;
+	height: 200px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px;
+	margin-top: 20px;
+}
+
+.uploadPic p {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.uploadPic form {
+	width: 90%;
+	margin: 30px auto;
+}
+
+.uploadPic from input {
+	padding-left: 20px;
+}
+
+.path {
+	width: 200px;
+	height: 25px;
+	border-radius: 5px 5px;
+}
+
+.begin {
+	margin-top: 30px;
+	border-radius: 2px 2px;
+	width: 70px;
+	height: 25px;
+	margin-left: 200px;
+}
+
+.rightContent {
+	width: 35%;
+	background-color: #FFFFFF;
+	border: 1px solid red;
+	border-radius: 10px 10px;
+	float: right;
+}
+
+.updatepwd {
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px;
+	margin-top: 20px;
+}
+
+.updatepwd p {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.update {
+	width: 80px;
+	height: 25px;
+	border-radius: 3px 3px;
+	float: right;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.rightContent p {
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.warn {
+	widht: 90%;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.warn li {
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}

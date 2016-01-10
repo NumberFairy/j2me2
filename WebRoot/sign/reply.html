@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>发帖成功，马上跳转到主页</title>
+</head>
+<body>
+	<form id="form1">
+		<h1 id="div1"></h1>
+	</form>
+</body>
+</html>
+<script type="text/javascript">
+	//设定倒数秒数  
+	var t = 3;
+	//显示倒数秒数  
+	function showTime() {
+		document.getElementById('div1').innerHTML = "回复成功，   "+t+" 秒后自动跳转到主页";
+		t -= 1;
+		if (t == 0) {
+			location.href = '/j2me2/index.jsp';
+		}
+		//每秒执行一次,showTime()  
+		setTimeout("showTime()", 1000);
+	}
+
+	//执行showTime()  
+	showTime();
+</script>
+

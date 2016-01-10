@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	background-color: #E2E2E2;
+}
+
+.top {
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+}
+
+.top_form {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto; //
+	border: 1px solid red;
+}
+
+#search {
+	margin-top: 10px;
+	height: 30px;
+	width: 500px;
+	margin-left: 100px;
+	border-radius: 10px 10px;
+}
+
+.form_btn {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	font-family: 'Consolas', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+		sans-serif;
+	font-size: 18px;
+	border-radius: 5px 5px;
+}
+
+.content {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: 1000px;
+	margin-top: 20px;
+}
+
+.content table {
+	width: 100%;
+}
+
+.content table tr {
+	background-color: #FFFFFF;
+	margin-top: 2px;
+}
+
+.qustion_topic {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.qustion_topic a:LINK {
+	color: black;
+	text-decoration: none;
+}
+
+.qustion_topic a:HOVER {
+	text-decoration: underline;
+}
+
+.reg {
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.reg_top {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.reg_top span {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+}
+
+.reg_top span a:LINK {
+	text-decoration: none;
+	color: black;
+}
+
+.reg_top span a:HOVER {
+	text-decoration: underline;
+}
+
+.reg table {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.reg table tr {
+	padding-top: 20px;
+}
+
+.table_left {
+	float: right;
+	padding-right: 20px;
+	padding-top: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.table_right input {
+	height: 30px;
+	width: 60%;
+	border-radius: 5px 5px;
+	font-size: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reg_btn {
+	height: 30px;
+	width: 100px;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 200px;
+	border-radius: 5px 5px;
+	font-size: 20px;
+	font-family: 'Consolas', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+		sans-serif;
+	border-radius: 5px 5px;
+	font-weight: 500;
+}
